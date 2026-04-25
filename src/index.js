@@ -7,6 +7,10 @@ app.get("/", (_req, res) => {
   res.json({ ok: true, service: "release-checklist-demo" });
 });
 
+app.get("/healthz", (_req, res) => {
+  res.json({ status: "ok", uptime: process.uptime() });
+});
+
 if (require.main === module) {
   app.listen(port, () => {
     console.log(`release-checklist-demo listening on :${port}`);
