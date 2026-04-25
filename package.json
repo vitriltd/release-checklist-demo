@@ -1,0 +1,16 @@
+{
+  "name": "release-checklist-demo",
+  "version": "0.1.0",
+  "description": "Demo consumer of vitriltd/release-checklist-action — a tiny Express service whose Release Please PRs get a sign-off checklist comment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
