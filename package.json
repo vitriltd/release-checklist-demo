@@ -1,6 +1,6 @@
 {
   "name": "release-checklist-demo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Demo consumer of vitriltd/release-checklist-action — a tiny Express service whose Release Please PRs get a sign-off checklist comment",
   "main": "src/index.js",
   "scripts": {
